@@ -4,12 +4,12 @@
 #include <Servo.h>
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "1Xw7AUEqjvqE7YkYrUR9M1dz7npVV95e"; //Token blynk yg di email
+char auth[] = "Your Auth Token"; //Token blynk yg di email
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "MBAHMUKIPER"; //nama wifi
-char pass[] = "ahhayas20"; //password wifi
+char ssid[] = "Your Wifi"; //nama wifi
+char pass[] = "Your Password"; //password wifi
 Servo move_servo;
 BLYNK_WRITE(V1){ 
   move_servo.write(param.asInt());
